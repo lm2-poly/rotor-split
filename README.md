@@ -3,7 +3,7 @@ Computes frequencies (rad/s or Hz), modeshapes and NAVMI factor of free-clamped 
 in a fluid for a given number of nodal diameters and circles; the geometry is customizable. Also allows for simple Dirac forced
 response analysis.
 
-%% Parameters
+%% Parameters\\
 Input geometry and material properties as well as considered mode
 
 %% k calculation
