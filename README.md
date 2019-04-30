@@ -3,7 +3,7 @@
 Description: Computes frequencies (rad/s or Hz), modeshapes and NAVMI factor of free-clamped rings &amp; clamped circular plates rotating in a fluid for a given number of nodal diameters and circles; the geometry is customizable. Also allows for simple Dirac forced response analysis. 'rotorX.m' considers a rotating ring in fluid, 'statorX.m' considers an annular plate in rotating fluid. The axial gap can be set freely while the radial gap is null.
 
 ##############################\
-Requirements: Matlab, default libraries.
+Requirements: Matlab (or Octave), default libraries.
 
 ##############################\
 Usage: Set geometry and material properties in the Parameters section. Choose the mode you wish to study (number of nodal diameters 'n' and circles 's'). If the aspect ratio of the plate b/a is bigger than 0.2 or if you are studying modes with high n and/or s, you might need to manually improve the initial guess for k calculation. Set rotation speed range for the plot in section OmegaD range plot through the 'nb' of ploted points and the 'step' size.
