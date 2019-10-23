@@ -1,6 +1,7 @@
 # rotor-split
 ##############################\
-Description: Computes frequencies (rad/s or Hz), modeshapes and NAVMI factor of free-clamped rings &amp; clamped circular plates rotating in a fluid for a given number of nodal diameters and circles; the geometry is customizable. Also allows for simple Dirac forced response analysis. 'rotorX.m' considers a rotating ring in fluid, 'statorX.m' considers an annular plate in rotating fluid. The axial gap can be set freely while the radial gap is null.
+Description: rotor7.m and stator7.m compute frequencies (rad/s or Hz), modeshapes and NAVMI factor of free-clamped rings &amp; clamped circular plates rotating in a fluid for a given number of nodal diameters and circles; the geometry is customizable. Also allow for simple Dirac forced response analysis. 'rotorX.m' considers a rotating ring in fluid, 'statorX.m' considers an annular plate in rotating fluid. The axial gap can be set freely while the radial gap is null.\
+rotor12.m works differently, assuming a shape for the potential flow WITH a radial gap. The added section "Fluid modes" allows flow velocity visualization.
 
 ##############################\
 Requirements: Matlab (or Octave), default libraries.
